@@ -5,7 +5,7 @@ function change(){
 
     const xhr = new XMLHttpRequest();
 
-    xhr.open("GET","https://v6.exchangerate-api.com/v6/eccf99329c33b527d6b3f422/latest/USD");
+    xhr.open("GET","https://v6.exchangerate-api.com/v6/eccf99329c33b527d6b3f422/latest/USD"); // "https://v6.exchangerate-api.com/v6/eccf99329c33b527d6b3f422/latest/USD" ==> Endpoint
 
     xhr.onload = function(){
         if(this.status){
